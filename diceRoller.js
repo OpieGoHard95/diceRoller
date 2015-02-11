@@ -5,8 +5,8 @@
 var sides = [1, 2, 3, 4, 5, 6]
 // Defines the different sides of the dice
 
-var rollDice = function {
-	return Math.floor(Math.random(sides);
+var rollDice = function() {
+	return Math.floor(Math.random(sides));
 // Roll a single dice
-}
+	}
 console.log(rollDice);
