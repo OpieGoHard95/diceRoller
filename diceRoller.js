@@ -3,7 +3,7 @@
 // Dice Rolling problem that was assigned in class
 
 var rollDice = function {
-	return Math.floor(Math.random() * 6);
+	return Math.floor(Math.random() * 6) + 1;
 // Roll a single dice
 }
 console.log(rollDice);
