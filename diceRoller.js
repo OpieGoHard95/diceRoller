@@ -10,10 +10,11 @@ var sides = [1, 2, 3, 4, 5, 6]
 
 var rollDice = sides[Math.floor(Math.random() * sides.length)];
 // Assigns a random number to the dice
+var rollDice2 = sides[MAth.floor(Math.random() * sides.length)];
+// Assigns a random number to a second dice
+
+var bothDice = (rollDice + rollDice2);
 
 
-
-
-
-console.log(rollDice);
+console.log(bothDice);
 // Prints out the assigned number, simulating a dice roll
